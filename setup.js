@@ -48,10 +48,10 @@ const copyOperations = [
     src: path.join("config", "proxy_list_tmp.js"),
     dest: path.join("config", "proxy_list.js"),
   },
-  {
-    src: path.join("accounts", "accounts_tmp.js"),
-    dest: path.join("accounts", "accounts.js"),
-  },
+  // {
+  //   src: path.join("accounts", "accounts_tmp.js"),
+  //   dest: path.join("accounts", "accounts.js"),
+  // },
 ];
 
 (async () => {
