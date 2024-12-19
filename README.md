@@ -8,8 +8,6 @@
   - [BOT FEATURE](#bot-feature)
   - [Prerequisite](#prerequisite)
   - [Setup \& Configure BOT](#setup--configure-bot)
-    - [Linux](#linux)
-    - [Windows](#windows)
   - [Update Bot](#update-bot)
   - [Setup Session](#setup-session)
   - [Note](#note)
@@ -18,7 +16,7 @@
 
 ## Catopia Airdrop
 New Airdrops : Catopia
-🪂 Register : https://t.me/catopia_game_bot/catopia?startapp=CatRefIdFF2A2A3D
+🪂 Register : https://t.me/catopia_game_bot/catopia?startapp=CatRefIdCD81AFA2
 🐱🌱Plant trees, upgrade pets, complete quests, invite friends and become the best
 
 ## BOT FEATURE
@@ -27,7 +25,7 @@ New Airdrops : Catopia
 - Auto Buy Seed
 - Auto Harvest
 - Auto Claim Mission
-- Auto Buy Chest (Common Chest with Adjustable Companion, Default A)
+- Auto Buy Chest
 - Auto Upgrade Pet 
 - Auto Claim Gold
 - Multi Account With Proxy Support
@@ -37,40 +35,22 @@ New Airdrops : Catopia
 - Git
 - Node JS
 - TELEGRAM_APP_ID & TELEGRAM_APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps)
-- Catopia Account , Create [Here](https://t.me/catopia_game_bot/catopia?startapp=CatRefIdFF2A2A3D) ,join and claim join reward, also don't forget to complete mandatory missions some completable mission.
+- Catopia Account , Create [Here](https://t.me/catopia_game_bot/catopia?startapp=CatRefIdCD81AFA2) ,join and claim join reward, also don't forget to complete mandatory missions some completable mission.
 
 ## Setup & Configure BOT
 
-### Linux
 1. clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
-4. run `mkdir sessions && mkdir -p app/config`.
-5. run `cp config/config_tmp.js config/config.js && cp config/proxy_list_tmp config/proxy_list.js`.
-6. To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
-7. To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
-8. to start the app run `npm run start`.
-   
-### Windows
-1. Open your `Command Prompt` or `Power Shell`.
-2. Clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
-3. Run `npm install`
-4. Run `npm i telegram@2.22.2`
-5. Navigate to `catopia-bot` directory. 
-6. Make new folder named `sessions`.
-7. Manual copy the `config` folder to `/app` folder. 
-8. Navigate to `app/` folder and paste the the `config` folder before.
-9. Navigate to `config` folder.
-10. At `/app/config/` folder, rename the `config_tmp.js` to `config.js` also the `proxy_list_tmp.js` to `proxy_list.js`.
-11. To configure the app, open `config.js` and add your telegram app id and hash there.
-12. To configure the Proxy, open `proxy_list.js` and add your proxy list there, it currently only support https proxy.
-13. Now back to the `catopia-bot` folder
-14. To start the app open your `Command Prompt` or `Power Shell` again and run `node app/index.js`.
+4. run `npm run setup`.
+5. To configure the app, run `nano src/config/config.js` and add your telegram app id and hash there.
+6. To configure the Proxy, run `nano src/config/proxy_list.js` and add your proxy list there, it currently only support https proxy.
+7. to start the app run `npm run start`.
 
 ## Update Bot
 
 To update bot follow this step :
-1. run `git pull` or `git pull rebase` , if error run `git stash && git pull`
+1. run `git pull` or `git pull --rebase` , if error run `git stash && git pull`
 2. run `npm update`
 3. start the bot
 
@@ -89,8 +69,6 @@ This bot using telegram sessions. if you ever use one of my bot that use telegra
 
 if you got error `Invalid ConstructorId` try to run this ```npm i telegram@2.22.2```
 
-To configure Pet Companion, check on file `config/config.js` , change the `COMPANION` to whatever companion you want to focus (it will buy chest and choose that companion, and upgrade all pet received)
-
 ## CONTRIBUTE
 
 Feel free to fork and contribute adding more feature thanks.
@@ -100,6 +78,6 @@ Feel free to fork and contribute adding more feature thanks.
 want to support me for creating another bot ?
 **star** my repo or buy me a coffee on
 
-EVM : `0x0fd08d2d42ff086bf8c6d057d02d802bf217559a`
+EVM : `0x1f0ea6e0b3590e1ab6c12ea0a24d3d0d9bf7707d`
 
 SOLANA : `3tE3Hs7P2wuRyVxyMD7JSf8JTAmEekdNsQWqAnayE1CN`

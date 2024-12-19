@@ -1,9 +1,10 @@
 node_modules
 config/config.js
 app/config/*
+app/accounts/*
 log/*
 test.js
-sessions/*
+accounts/*
 src/reference/*
 package-lock.json
 .DS_Store
