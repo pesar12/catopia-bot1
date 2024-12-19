@@ -26,6 +26,7 @@ New Airdrops : Catopia
 - Auto Harvest
 - Auto Claim Mission
 - Auto Buy Chest
+- Auto Buy Lands
 - Auto Upgrade Pet 
 - Auto Claim Gold
 - Multi Account With Proxy Support
