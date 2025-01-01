@@ -16,7 +16,7 @@
 
 ## Catopia Airdrop
 New Airdrops : Catopia
-🪂 Register : https://t.me/catopia_game_bot/catopia?startapp=CatRefIdCD81AFA2
+🪂 Register : https://t.me/catopia_game_bot/catopia?startapp=CatRefId29DB07C6
 🐱🌱Plant trees, upgrade pets, complete quests, invite friends and become the best
 
 ## BOT FEATURE
@@ -36,11 +36,11 @@ New Airdrops : Catopia
 - Git
 - Node JS
 - TELEGRAM_APP_ID & TELEGRAM_APP_HASH Get it from [Here](https://my.telegram.org/auth?to=apps)
-- Catopia Account , Create [Here](https://t.me/catopia_game_bot/catopia?startapp=CatRefIdCD81AFA2) ,join and claim join reward, also don't forget to complete mandatory missions some completable mission.
+- Catopia Account , Create [Here](https://t.me/catopia_game_bot/catopia?startapp=CatRefId29DB07C6) ,join and claim join reward, also don't forget to complete mandatory missions some completable mission.
 
 ## Setup & Configure BOT
 
-1. clone project repo `git clone https://github.com/Widiskel/catopia-bot.git` and cd to project dir `cd catopia-bot`
+1. clone project repo `git clone https://github.com/pesar12/catopia-bot1.git` and cd to project dir `cd catopia-bot1`
 2. run `npm install`
 3. run `npm i telegram@2.22.2`
 4. run `npm run setup`.
